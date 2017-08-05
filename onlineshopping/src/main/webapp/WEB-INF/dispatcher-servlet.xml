@@ -12,6 +12,7 @@
    
    
    <context:component-scan base-package="com.codingbybushan.onlineshopping.controller" />
+   <context:component-scan base-package="com.codingbybushan.shoppingbackend.daoimpl" />
    
    <!-- this is for linking to the view pages -->
    <bean id = "viewResolver" class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
