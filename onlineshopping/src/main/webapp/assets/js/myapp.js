@@ -14,7 +14,9 @@ $(function(){
 			break;
 			
 		default:
-			$('#a_'+menu).addClass('active');
-			break;
+		if(menu == "Home") break;
+		$('#viewProducts').addClass('active');	
+		$('#a_'+menu).addClass('active');
+		break;
 	}
 });

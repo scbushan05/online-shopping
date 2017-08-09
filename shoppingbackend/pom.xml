@@ -17,10 +17,11 @@
 	</properties>
 
 	<dependencies>
+		<!-- this is for JUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 		
@@ -42,7 +43,7 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<version>1.4.193</version>
+			<version>1.4.196</version>
 		</dependency>
 		
 		<!-- this is for hibernate -->
