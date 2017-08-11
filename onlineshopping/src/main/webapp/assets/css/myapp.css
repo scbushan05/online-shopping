@@ -69,3 +69,9 @@ footer {
    font-size: 14px;
    border-top: 1px solid black;
 }
+
+/* adding the image size for the datatable */
+.dataTableImage{
+	width: 100px;
+	height: 100px;
+}
